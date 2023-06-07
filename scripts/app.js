@@ -1,3 +1,4 @@
+// main js function that imports other js function
 import { solve, insertValues, populateValues } from './solver.js'
 import { drawBoard } from './draw_board.js'
 

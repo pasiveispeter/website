@@ -1,3 +1,4 @@
+/* the @import imports css rules from google */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
@@ -6,10 +7,10 @@
     box-sizing: border-box;
     border-spacing: 0;
 }
-
+/* html css */
 html {
     font-family: 'Roboto', sans-serif;
-/*     background-color: #FDF2E9; */
+
 }
 
 .intro {
@@ -64,7 +65,7 @@ html {
     color: #4848d4;
 }
 
-.solve-button, .clear-button, .load-button {
+.solve-button, .clear-button{
     margin-top: 20px;
     background-color: #1B4F72;
     border: none;
@@ -80,10 +81,10 @@ html {
     cursor: pointer;
 }
 
-.clear-button, .load-button {
+.clear-button, {
     margin-left: 15px;
 }
 
-.solve-button:hover, .clear-button:hover, .load-button:hover {
+.solve-button:hover, .clear-button:hover  {
     background-color: #568caf;
 }

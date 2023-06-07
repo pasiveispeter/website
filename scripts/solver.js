@@ -1,3 +1,9 @@
+// this is main algorithm
+// this is backtracking algorithm
+// this code is modified accrording to your UI and need
+
+// this algortihm is not created by us but was modified by us according to our UI and need - Develepers
+
 let board = []
 
 export function insertValues() {
@@ -47,7 +53,7 @@ const getChoices = (board, index) => {
     }
     return choices
 }
-
+//backtracking core algorithm
 const bestBet = (board) => {
     let index, moves, bestLen = 100
     for (let i = 0; i < 81; ++i) {
@@ -74,7 +80,7 @@ export const solve = () => {
     board[index] = 0
     return false
 }
-
+//inserts the value
 export function populateValues() {
     const inputs = document.querySelectorAll('input')
     inputs.forEach((input, i) => input.value = board[i])

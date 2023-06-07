@@ -1,3 +1,5 @@
+// it draws a sudoku board usinf for loop to make 81 input fields and then styled with css
+
 export function drawBoard() {
     const sudokuBoard = document.querySelector("#puzzle")
     const squares = 81
